@@ -1,0 +1,128 @@
+@media (max-width: 768px) {
+  .logo {
+    float: left; }
+
+  .menu {
+    margin-top: 40px; } }
+@media (max-width: 768px) {
+  /*	.menu {
+  		display: flex;
+  		justify-content: space-between;
+  	 
+  	}*/ }
+body {
+  background: #F5F5F5; }
+
+.white {
+  background: white; }
+
+.navbar {
+  margin-bottom: 0px; }
+
+.carousel-control {
+  background: transparent !important; }
+
+/*section {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}*/
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: -50px;
+  /*text-align: center;*/
+  color: #212121; }
+
+h3 {
+  color: white; }
+
+section {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  height: 470px; }
+
+/*NAVBAR*/
+.navbar {
+  margin-bottom: 0px;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  color: #212121;
+  background: white; }
+  .navbar div img {
+    margin-left: -32px; }
+  .navbar ul .dropdown-menu {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #212121; }
+    .navbar ul .dropdown-menu li a:hover {
+      color: #f26a21; }
+
+.navbar-right .btn {
+  background: #f26a21;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  color: #212121;
+  font-weight: 600; }
+
+.navbar-default .navbar-nav > li.dropdown:hover > a,
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+  background-color: none;
+  color: #f26a21; }
+
+li.dropdown:hover > .dropdown-menu {
+  display: block; }
+
+/*CAROUSEL*/
+.carousel-control {
+  background: transparent !important; }
+
+/*QUIENES SOMOS*/
+.first-section {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background: rgba(242, 106, 33, 0.9);
+  margin: 0 auto;
+  padding: 0;
+  width: 100%; }
+  .first-section h2 {
+    text-align: center; }
+
+/*DONDE ESTAMOS*/
+.section-donde-estamos h2 {
+  text-align: center; }
+
+/*FOOTER*/
+footer {
+  background: #616161; }
+  footer h3 {
+    font-style: "Roboto", sans-serif;
+    text-align: center; }
+  footer .list-group {
+    text-align: center; }
+    footer .list-group a {
+      background: none;
+      color: white;
+      font-size: 15px;
+      border: 0;
+      padding-right: 10;
+      padding-left: 10;
+      width: 140px;
+      margin: 0 auto; }
+  footer .imagen {
+    margin-top: 50px;
+    margin-left: 50px; }
+  footer .form-group {
+    padding: 0;
+    margin: 0 auto;
+    margin: -10px; }
+  footer textarea {
+    margin-bottom: 10px; }
+
+/*# sourceMappingURL=style.css.map */
